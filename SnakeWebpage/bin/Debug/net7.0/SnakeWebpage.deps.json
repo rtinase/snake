@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SnakeWebpage/1.0.0": {
+        "dependencies": {
+          "SnakeCore": "1.0.0"
+        },
+        "runtime": {
+          "SnakeWebpage.dll": {}
+        }
+      },
+      "SnakeCore/1.0.0": {
+        "runtime": {
+          "SnakeCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SnakeWebpage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SnakeCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

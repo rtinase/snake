@@ -1,0 +1,62 @@
+.ui[b-z46mguk83n] {
+    position: absolute;
+
+}
+.game-grid[b-z46mguk83n] {
+    top:20%;
+    left: 30%;
+    display: grid;
+}
+
+.grid-item[b-z46mguk83n] {
+    text-align: center;
+    width: 1vw;
+    height: 2vh;
+}
+
+#score[b-z46mguk83n] {
+    left: 25%;
+}
+
+#settings[b-z46mguk83n] {
+    left: 40%;
+}
+
+#pause[b-z46mguk83n] {
+    right: 15%;
+    top: 10%;
+}
+
+#restart[b-z46mguk83n] {
+    right: 15%;
+    top: 15%;
+}
+#button[b-z46mguk83n]{
+    left:40%;
+}
+#settings[b-z46mguk83n]{
+    left: 83%;
+    top:30%;
+}
+#size[b-z46mguk83n]{
+    left: 80%;
+    top:40%;
+}
+#sizeInput[b-z46mguk83n]{
+    left: 85%;
+    top:40%;
+}
+#speed[b-z46mguk83n]{
+    left: 80%;
+    top: 45%;
+}
+#speedInput[b-z46mguk83n]{
+    left: 85%;
+    top: 45%;
+}
+#saveButton[b-z46mguk83n]{
+    left: 85%;
+    top: 50%;
+}
+
+

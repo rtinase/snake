@@ -1,0 +1,11 @@
+D:\Apps\Dima\Snake\SnakeCore\bin\Debug\net7.0\SnakeCore.deps.json
+D:\Apps\Dima\Snake\SnakeCore\bin\Debug\net7.0\SnakeCore.dll
+D:\Apps\Dima\Snake\SnakeCore\bin\Debug\net7.0\SnakeCore.pdb
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.AssemblyInfoInputs.cache
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.AssemblyInfo.cs
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.csproj.CoreCompileInputs.cache
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.dll
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\refint\SnakeCore.dll
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\SnakeCore.pdb
+D:\Apps\Dima\Snake\SnakeCore\obj\Debug\net7.0\ref\SnakeCore.dll
