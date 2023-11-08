@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "SnakeCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SnakeCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SnakeCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SnakeCore/1.0.0": {
+      "type": "project",
+      "path": "../SnakeCore/SnakeCore.csproj",
+      "msbuildProject": "../SnakeCore/SnakeCore.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "SnakeCore >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dmytro.Puntus\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Apps\\Dima\\Snake\\SnakeWPF\\SnakeWPF.csproj",
+      "projectName": "SnakeWPF",
+      "projectPath": "D:\\Apps\\Dima\\Snake\\SnakeWPF\\SnakeWPF.csproj",
+      "packagesPath": "C:\\Users\\Dmytro.Puntus\\.nuget\\packages\\",
+      "outputPath": "D:\\Apps\\Dima\\Snake\\SnakeWPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dmytro.Puntus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "D:\\Apps\\Dima\\Snake\\SnakeCore\\SnakeCore.csproj": {
+              "projectPath": "D:\\Apps\\Dima\\Snake\\SnakeCore\\SnakeCore.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

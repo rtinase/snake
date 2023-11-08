@@ -1,0 +1,22 @@
+﻿<Window x:Class="SnakeWPF.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800">
+    <Grid Background="Black">
+        <Canvas>
+            <TextBlock Foreground="White" Canvas.Left="350" Canvas.Top="10"> SETTINGS </TextBlock>
+            <TextBlock Foreground="White" Canvas.Left="266" Canvas.Top="75"> Size Of The field </TextBlock>
+            <TextBox AcceptsReturn="True" Canvas.Left="445" Canvas.Top = "75" Name="SizeInputBox"/>
+            <TextBlock Foreground="White" Canvas.Left="266" Canvas.Top = "105"> Speed of the game </TextBlock>
+            <TextBox AcceptsReturn="True" Canvas.Left="445" Canvas.Top = "105" Name="SpeedInputBox"/>
+            <Button Height="40" Width="120" BorderBrush="White" Background="Black" BorderThickness="5" FontSize="15" FontWeight="Bold" Click="SaveButton_OnClick" Canvas.Left= "630" Canvas.Top="350">
+                <TextBlock Foreground="White">Save Changes</TextBlock>
+            </Button>
+           
+        </Canvas>
+        
+    </Grid>
+</Window>
